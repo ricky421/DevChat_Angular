@@ -1,0 +1,19 @@
+<div class="login">
+  <form #loginForm="ngForm">
+    <h2> Login </h2>
+
+    <label>Email </label>
+      <input type="email" name="email" placeholder="Enter your email address"
+       [(ngModel)]="email" maxlength = "100" required/><br>
+
+      <label>Password </label>
+       <input type="password" name="password" placeholder="Enter password"
+        [(ngModel)]="password" required/><br>
+
+      <button [disabled]="!loginForm.form.valid"
+        type = "submit" (click)="Login()"
+        >Login</button>
+
+  </form>
+
+</div>

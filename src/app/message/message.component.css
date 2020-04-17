@@ -1,0 +1,14 @@
+.messageContainer {
+  display: flex;
+  background-color: #5995DA;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border: 1px solid #fff;
+  width:600px;
+}
+
+.messageData {
+  margin-left: 15px;
+}

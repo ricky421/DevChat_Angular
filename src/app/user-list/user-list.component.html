@@ -1,0 +1,7 @@
+<h2>Users online currently</h2>
+<div class = "userList">
+  <!-- div below gets repeated so cant use .userList css on it -->
+  <div *ngFor = "let user of users | async">
+    <app-user-item [username] = user.displayName></app-user-item>
+  </div>
+</div>

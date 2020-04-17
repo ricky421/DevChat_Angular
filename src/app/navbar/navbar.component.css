@@ -1,0 +1,14 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 5px 5px 5px;
+}
+.entry{
+  display:flex;
+  justify-content: space-around;
+  width:10%;
+  float:left;
+}
+.logout{
+  float:right;
+}

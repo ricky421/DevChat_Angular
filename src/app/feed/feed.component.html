@@ -1,0 +1,7 @@
+<div class="feed">
+  <!-- pipe async is for subscribing, i.e, convert observable array to normal array... I think.. -->
+  <div *ngFor = "let message of feed | async" class="message">
+    <!-- chatMessage is an input so we need to import Input -->
+    <app-message [chatMessage]=message></app-message>
+  </div>
+</div>
